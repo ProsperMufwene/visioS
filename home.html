@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap3/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap3/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="css/bootstrap3/js/jquery-2.1.0.js" ></script>
+    <script type="text/javascript" src="css/bootstrap3/js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="css/bootstrap3/js/script.js" ></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+                <nav class="navbar navbar-inverse" id="navbar" role="navigation">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Society</a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li ><a href="#">Nos véhiclues</a></li>
+                                <li><a href="#">Tarifs</a></li>
+                                <li><a href="#">Conditions</a></li>
+                                <li><a href="#">Promotions</a></li>
+                                <li><a href="#">Livre D'OR</a></li>
+                                <li><a href="#">A propos de nous</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                            
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Espace Membres <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Connexion</a></li>
+                                        <li><a href="#">Inscription</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+
+        
+        <div class="row">
+             <div class="col-sm-6 col-md-offset-1 col-md-10">
+              <div class="col-sm-6  col-md-3" id="test">
+             
+                    <div class="thumbnail">
+                        <img src="css/pictures/A5.jpg"   alt="A5">
+                        <div class="caption">
+                            <h3>Audi A5</h3>
+                            <p>
+                                <a href="#" class="btn btn-info" role="button">Plus d'info</a>
+                                <a href="#" class="btn btn-primary" role="button">Réserver</a> 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="thumbnail">
+                         <img src="css/pictures/cayenne.jpg" alt="A5">
+                            <div class="caption">
+                                    <h3>Audi A5</h3>
+                                    <p>
+                                        <a href="#" class="btn btn-info" role="button">Plus d'info</a>
+                                       <a href="#" class="btn btn-primary" role="button">Réservez</a> 
+                                     </p>
+                                </div>
+                    </div>
+        </div>        
+
+
+            <div class="col-sm-6  col-md-7">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="1">
+                          
+                      </li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                          <img src="css/pictures/A5.jpg" class="carousel_pictures" />
+                          <div class="carousel-caption">
+                            OUH YEAH
+                           </div>
+                     </div>
+                
+                    <div class="item"> 
+                        <img src="css/pictures/cayenne.jpg" />
+                        <div class="carousel-caption">
+                               Le texte de ton choix
+                        </div>
+                    </div>  
+
+                    <div class="item">
+                        <img src="css/pictures/buggati.jpg" />
+                        <div class="carousel-caption">
+                                chaque chammgement d'iimage :)
+                        </div> 
+                    </div>  
+                    </div>
+               <!-- Controls -->
+               <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            </div>
+                <dl class="dl-horizontal" id="fiche_tech" >
+                             <h1>Nom du modele</h1>
+                        
+                        <dt>Année</dt>
+                        <dd>Année du modéle en base de donner</dd>
+                        
+
+                        <dt>Derniere localtion</dt>
+                        <dd>derniere locatation du modéle en base de donner</dd>
+
+                        <dt>Nombre localtion</dt>
+                        <dd>nombre de location locatation du modéle en base de donner</dd>
+                        
+                            <button   type="button" class="btn btn-modal" data-toggle="modal" data-target=".bs-example-modal-lg">
+                            <img src="css/pictures/A5.jpg"  class="img-thumbnail img_tech" 
+                            alt="A5"/> </button>
+
+
+                            <button   type="button" class="btn btn-modal" data-toggle="modal" data-target=".bs-example-modal-lg">
+                            <img src="css/pictures/A5.jpg"  class="img-thumbnail img_tech" 
+                            alt="A5"/> </button>
+
+
+                            <button   type="button" class="btn btn-modal" data-toggle="modal" data-target=".bs-example-modal-lg">
+                            <img src="css/pictures/A5.jpg"  class="img-thumbnail img_tech" 
+                            alt="A5"/> </button>
+                            
+                </dl>
+                           
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img src="css/pictures/A5.jpg"  class="img-thumbnail" alt="A5"/>
+    </div>
+  </div>
+</div>
+
+
+                  
+
+            </div>
+
+                 
+        </div>
+
+               
+
+
+
+
+        </div>
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
